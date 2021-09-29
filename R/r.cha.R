@@ -1,19 +1,11 @@
 r.cha <-
-function(x, k, beta){
-rho <-k*median(x)
-
-y.6 <-vector(length=length(x))
-r.66 <-vector(length=length(x))
-
-for (i in 1:length(x)){
-y.6[i]=1-(rho/x[i])^beta
-
-if (y.6[i]>0) 
-r.66[i] <-y.6[i]
-else r.66[i] <-0
-}
-r.6 <-sum(r.66)/length(x)
-
-outlist=list(r=r.66, r.cha=r.6)
-return(outlist)
+function(x, weight, k, beta){
+  n <- length(x)
+  if (is.null(weight)) weight <- rep(1, n)
+  
+  rhow <- k*weighted.median(x, weight)
+  ind <- ifelse(x > rhow, 1, 0)
+  r.cha <- sum((1-(rhow/(x))^beta*ind)*weight)/sum(weight)
+  
+  return(r.cha)
 }

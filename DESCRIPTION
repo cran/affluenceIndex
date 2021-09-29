@@ -1,15 +1,14 @@
 Package: affluenceIndex
 Type: Package
-Title: Affluence Indices
-Version: 1.0
-Date: 2017-02-26
+Title: Affluence (Richness) Indices
+Version: 2.0
+Date: 2021-09-28
 Author: Alicja Wolny-Dominiak and Anna Saczewska-Piotrowska
 Maintainer: Alicja Wolny-Dominiak <alicja.wolny-dominiak@ue.katowice.pl>
-Description: Computes the statistical indices of affluence (richness) and constructs bootstrap confidence intervals for these indices. Also computes the Wolfson polarization index.
-Depends: stats
+Description: Enables to compute the statistical indices of affluence (richness) with bootstrap errors, and inequality and polarization indices. Moreover, gives the possibility of calculation of Medeiros affluence line.
+Depends: R (>= 3.6.2), stats, spatstat, spatstat.geom
 License: GPL-2
-Encoding: latin2
 NeedsCompilation: no
-Packaged: 2017-03-23 08:19:06 UTC; Woali
+Packaged: 2021-09-28 19:03:01 UTC; woali
 Repository: CRAN
-Date/Publication: 2017-03-23 13:02:42 UTC
+Date/Publication: 2021-09-29 07:10:17 UTC
