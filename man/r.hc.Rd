@@ -14,8 +14,8 @@ r.hc(x, weight, k)
 }
 \details{Richness headcount ratio is a proportion of the population with incomes above the affluence line. Weighted version (with weights \eqn{w_1,w_2,...,w_n}) 
 of this ratio is given by:
-\deqn{R^{HC}(\boldsymbol{x}, \rho_w) = \frac{\sum_{i=1}^nw_i\boldsymbol{1}_{x_i > \rho_w}w_i}{\sum_{i=1}^n{w_i}},}
-where \eqn{x_i} is an income of individual \eqn{i}, \eqn{n} is the number of individuals, \eqn{\rho_w} is the richness line,\eqn{\boldsymbol{1}(\cdot)} 
+\deqn{R^{HC}(\boldsymbol{x},\boldsymbol{w},\rho_w) = \frac{\sum_{i=1}^n \boldsymbol{1}_{x_i > \rho_w}w_i}{\sum_{i=1}^n{w_i}},}
+where \eqn{x_i} is an income of individual \eqn{i}, \eqn{n} is the number of individuals, \eqn{\rho_w} is the richness line,\eqn{\boldsymbol{1}_{(\cdot)}} 
 denotes the indicator function, which is equal to 1 when its argument is true and 0 otherwise.
 }
 \value{

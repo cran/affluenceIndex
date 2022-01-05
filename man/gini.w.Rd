@@ -16,8 +16,8 @@ gini.w(x, weight)
 }
 \details{
 The Gini coefficient is the most popular measure of income inequality. The formula taking into account the weights of income \eqn{w_1,w_2,...,w_n} is given by:
-\deqn{G_w = \frac{\sum_{i=1}^nw_i\sum_{j=1}^nw_j|x_i-x_j|}{2(\sum_{i=1}^nw_i)^2\mu},}
-where \eqn{x_i,x_j} are incomes of individuals \eqn{i} and {j}, respectively, \eqn{n} is the number of individuals, \eqn{\mu} is the mean income. The Gini coefficient ranges between 1 (perfect equality) and 1 (perfect inequality).
+\deqn{G_w = \frac{\sum_{i=1}^nw_i\sum_{j=1}^n w_j|x_i-x_j|}{2(\sum_{i=1}^nw_i)^2\mu_w},}
+where \eqn{x_i,x_j} are incomes of individuals \eqn{i} and {j}, respectively, \eqn{n} is the number of individuals, \eqn{\mu_w} is the mean income. The Gini coefficient ranges between 1 (perfect equality) and 1 (perfect inequality).
 }
 \value{
 \item{GG}{the value of coefficient}

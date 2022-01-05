@@ -15,9 +15,9 @@ r.cha(x, weight, k, beta)
 \item{beta}{parameter of the index: \code{beta} > 0}
 }
 \details{Peichl et. al (2008) defined an affluence index. Weighted index (with weights \eqn{w_1,w_2,...,w_n}) is given by:
-\deqn{R^{CHA}_{\beta}(\boldsymbol{x}, \rho_w) = \frac{\sum_{i=1}^n(1-(\frac{\rho_w}{x_i})^\beta)\boldsymbol{1}_{x_i > \rho_w}w_i}{\sum_{i=1}^n{w_i}}, \beta > 0,}
+\deqn{R^{CHA}_{\beta}(\boldsymbol{x},\boldsymbol{w},\rho_w) = \frac{\sum_{i=1}^n(1-(\frac{\rho_w}{x_i})^\beta)\boldsymbol{1}_{x_i > \rho_w}w_i}{\sum_{i=1}^n{w_i}}, \beta > 0,}
 where \eqn{x_i} is an income of individual \eqn{i}, \eqn{n} is the number of individuals, \eqn{\rho_w} is the richness line, 
-\eqn{\boldsymbol{1}(\cdot)} denotes the indicator function, which is equal to 1 when its argument is true and 0 otherwise.
+\eqn{\boldsymbol{1}_{(\cdot)}} denotes the indicator function, which is equal to 1 when its argument is true and 0 otherwise.
 Index satisfies transfer axiom \eqn{T1} (concave): a richness index should increase when a rank-preserving progressive transfer between two rich individuals takes place.
 }
 \value{
