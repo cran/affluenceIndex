@@ -1,5 +1,5 @@
-20138415677ece017590ac825b1378e9 *DESCRIPTION
-307308dfdda5049113806e4f8dac9088 *NAMESPACE
+56bee26db7bc7258088132d5065881ca *DESCRIPTION
+3bc04583304e5959b54b76ca5e172b0d *NAMESPACE
 a80afc08675aea985bfec4d0c2d6f86b *R/S90S40.R
 ffafdac5eb8580b997a243a87d092f0c *R/boot.sd1.R
 da43df0bcdc06e6f246207a5ce1e2660 *R/boot.sd1.sub.R
@@ -18,15 +18,16 @@ a3d181e15a766ee4210e0b525e3d3edd *R/r.is.R
 b91163b3edab1346521d8fe0d6d156e6 *R/r.is.sub.R
 0313ab38b296dbf54a3eb84eb3f785ee *R/r.med.R
 868e11bb80b8499dd3ea397de3a59427 *R/r.med.sub.R
+9ecb0bdfb906213cc54af05f9a8fb645 *build/partial.rdb
 686c308cddebbddce88ba2f2da1e6584 *data/affluence.rda
 ac8064a7e13a842ad24d8e9380c34cb4 *man/S90S40.Rd
 7104cbdf0d0278fb2248631bdafb2b6a *man/affluence.Rd
-23af9bf6c14fd370cdacc848602f8495 *man/affluenceIndex-package.Rd
+9d075e345b8210ee44cb722da13f2151 *man/affluenceIndex-package.Rd
 89df047ee48b3e0c213063fb6827b62a *man/boot.sd1.Rd
 4c8c8821652e66a9fc4e29d7efed93ec *man/boot.sd1.sub.Rd
 7063bc603518d21bae7a3b8e5a538508 *man/boot.sd2.Rd
 929a7023d9b02e2d55f99ae2b692a856 *man/boot.sd2.sub.Rd
-b7d27184135a0d4c688cabe0e9fd42d1 *man/gini.w.Rd
+2ed08a3a8f5c29c725e56bc209cd1d0f *man/gini.w.Rd
 ac7bb34ea5d8fc0423b26edb3d72639f *man/line.med.Rd
 92b37f9ecf7d2ca0b7532b5f955a8a09 *man/polar.aff.Rd
 994da32b2955408e547ad96e8eac0082 *man/r.cha.Rd

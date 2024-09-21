@@ -24,7 +24,7 @@ Maintainer: Alicja Wolny-Dominiak
 3. Cobham A., Sumner A.(2013). Is it all about the tails? The Palma measure of income inequality. Working Paper No. 343, Center for Global Development. \cr
 4. Creedy J. (2015). A note on computing the Gini inequality measure with weighted data. Workin Paper No. 3, Victoria University of Wellington. \cr
 5. Lerman R.I., Yitzhaki S. (1989) Improving the accuracy of estimates of Gini coefficients. \emph{Journal of Econometrics}, 42(1), pp. 43-47. \cr
-\url{https://www.sciencedirect.com/science/article/abs/pii/0304407689900742} \cr
+\doi{10.1016/0304-4076(89)90074-2} \cr
 
 6. Medeiros M. (2006) The rich and the poor: the construction of an affluence line from the poverty line. \emph{Social Indicators Research}, 78(1), pp. 1-18. \cr
 \url{https://link.springer.com/article/10.1007/s11205-005-7156-1} \cr
